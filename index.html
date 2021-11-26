@@ -1,0 +1,99 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #ededed;
+}
+</style>
+
+</head>
+<body>  
+<h1> Multithreading/Multiprocessing benchmark results </h1>
+<h2> Execution environment </h2>
+<span> Python version: 3.9.7<br/> </span>
+<span> Interpreter: CPython<br/> </span>
+<span> Interpreter version: 3.9.7 (default, Oct 10 2021, 15:13:22) 
+[GCC 11.1.0]<br/> </span>
+<span> Operating system: Linux<br/> </span>
+<span> Operating system version: 5.15.2-zen1-1-zen<br/> </span>
+<span> Processor: Can't determine<br/> </span>
+<span> CPUs: 12<br/> </span>
+<h2> Test results </h2>
+<p> The following table shows detailed test results: </p>
+<table>  
+<tr>  
+<th> Execution:  </th>
+<th> 1 thread (s) </th>
+<th> 4 threads (s) </th>
+<th> 4 processes (s) </th>
+<th> processes based on number of CPU's(s) </th>
+</tr>
+<tr>  
+<td> 1 </td>
+<td> 51.68 </td>
+<td> 52.022 </td>
+<td> 14.431 </td>
+<td> 8.579 </td>
+</tr>
+<tr>  
+<td> 2 </td>
+<td> 51.212 </td>
+<td> 52.913 </td>
+<td> 14.445 </td>
+<td> 8.249 </td>
+</tr>
+<tr>  
+<td> 3 </td>
+<td> 52.231 </td>
+<td> 51.794 </td>
+<td> 15.03 </td>
+<td> 8.823 </td>
+</tr>
+<tr>  
+<td> 4 </td>
+<td> 52.143 </td>
+<td> 52.088 </td>
+<td> 14.608 </td>
+<td> 8.488 </td>
+</tr>
+<tr>  
+<td> 5 </td>
+<td> 51.474 </td>
+<td> 51.415 </td>
+<td> 14.803 </td>
+<td> 8.176 </td>
+</tr>
+</table>
+<h2> Summary </h2>
+<p> The following table shows the median of all results: </p>
+<table>  
+<tr>  
+<th> Execution:  </th>
+<th> 1 thread (s) </th>
+<th> 4 threads (s) </th>
+<th> 4 processes (s) </th>
+<th> processes based on number of CPU's(s) </th>
+</tr>
+<tr>  
+<td> Median: </td>
+<td> 51.68 </td>
+<td> 52.022 </td>
+<td> 14.608 </td>
+<td> 8.488 </td>
+</tr>
+</table>
+<p> App author: Patryk Pęczak </p>
+</body>
+</html>
